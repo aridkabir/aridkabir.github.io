@@ -11,7 +11,9 @@ footer {
     color: grey;
     font-size: 10px;
     font-style:italic;
+    max-width: 100px
 }
+
 
 img {
     pointer-events: none;
