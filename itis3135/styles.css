@@ -18,8 +18,11 @@ footer {
     padding: 10px;
 }
 .contract {
-    color: grey;
+    color: rgb(200, 174, 152);
     font-style: italic;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 10cm
 }
 ul {
     margin-right: auto;
