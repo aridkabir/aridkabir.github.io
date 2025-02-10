@@ -1,8 +1,28 @@
-footer {
-    color: grey;
-    font-size: 13px;
-    padding-top: 3%;
-}
 body {
-    background-color: white;
+    text-align: center;
+}
+h1 {
+    color: #007FFF;
+}
+.nav {
+    border-radius: 10px;
+    border-color: black;
+    background-color: aqua;
+    padding: 5%
+}
+footer {
+    color: #007FFF;
+    opacity: 50%;
+}
+.valbuttons {
+    padding: 10px;
+}
+.contract {
+    color: grey;
+    font-style: italic;
+}
+ul {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 10cm
 }
