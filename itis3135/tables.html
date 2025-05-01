@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Table | Ari Kabir | Azure Koi | ITIS 3135 |</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://lint.page/kit/4d0fe3.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <div data-include="components/header.html"></div>
+        </header>
+        <main>
+            <h2>Table</h2>
+            <h3>My Tabular Data</h3>
+            <ol>
+                <li>Alex Kimchi akimchi@gmail.com 5</li>
+                <li>Lisa Moon lisamoon88@aol.com 12</li>
+                <li>Jin Park jinp@gmail.com 8</li>
+                <li>Tara Gomez taragomez23@hotmail.com 3</li>
+                <li>Bruce Lee brucelee@netzero.net 20</li>
+                <li>Wendy Woo woo.wendy@gmail.com 1</li>
+                <li>Marcus Tanaka mtanaka1985@gmail.com 15</li>
+                <li>Ariel Song arielsong@yahoo.com 6</li>
+                <li>Samira Knight sknight@gmail.com 9</li>
+                <li>Diego Rocket diegor@gmail.com 11</li>
+            </ol>
+    
+            <h3>Employee Data in Simple Table</h3>
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Years of Service</th>
+                </tr>
+                <tr><td>Alex Kimchi</td><td>akimchi@gmail.com</td><td>5</td></tr>
+                <tr><td>Lisa Moon</td><td>lisamoon88@aol.com</td><td>12</td></tr>
+                <tr><td>Jin Park</td><td>jinp@gmail.com</td><td>8</td></tr>
+                <tr><td>Tara Gomez</td><td>taragomez23@hotmail.com</td><td>3</td></tr>
+                <tr><td>Bruce Lee</td><td>brucelee@netzero.net</td><td>20</td></tr>
+                <tr><td>Wendy Woo</td><td>woo.wendy@gmail.com</td><td>1</td></tr>
+                <tr><td>Marcus Tanaka</td><td>mtanaka1985@gmail.com</td><td>15</td></tr>
+                <tr><td>Ariel Song</td><td>arielsong@yahoo.com</td><td>6</td></tr>
+                <tr><td>Samira Knight</td><td>sknight@gmail.com</td><td>9</td></tr>
+                <tr><td>Diego Rocket</td><td>diegor@gmail.com</td><td>11</td></tr>
+            </table>
+    
+            <figure>
+                <figcaption><h3>Employee Data in Complex Table</h3>Employee Information</figcaption>
+                <table>
+                    <thead>
+                        <tr>
+                            <th id="dept" scope="col">Department</th>
+                            <th id="name" scope="col">Name</th>
+                            <th id="email" scope="col">Email</th>
+                            <th id="years" scope="col">Years of Service</th>
+                            <th id="salary" scope="col">Monthly Salary ($)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td id="d1" rowspan="3">Marketing</td>
+                            <td id="n1">Alex Kimchi</td>
+                            <td headers="name email">akimchi@gmail.com</td>
+                            <td headers="years">5</td>
+                            <td headers="salary">$4,500</td>
+                        </tr>
+                        <tr>
+                            <td id="n2">Lisa Moon</td>
+                            <td headers="name email">lisamoon88@aol.com</td>
+                            <td headers="years">12</td>
+                            <td headers="salary">$5,200</td>
+                        </tr>
+                        <tr>
+                            <td id="n3">Jin Park</td>
+                            <td headers="name email">jinp@gmail.com</td>
+                            <td headers="years">8</td>
+                            <td headers="salary">$4,800</td>
+                        </tr>
+                        <tr>
+                            <td id="d2" rowspan="2">Sales</td>
+                            <td id="n4">Tara Gomez</td>
+                            <td headers="name email">taragomez23@hotmail.com</td>
+                            <td headers="years">3</td>
+                            <td headers="salary">$4,300</td>
+                        </tr>
+                        <tr>
+                            <td id="n5">Bruce Lee</td>
+                            <td headers="name email">brucelee@netzero.net</td>
+                            <td headers="years">20</td>
+                            <td headers="salary">$6,000</td>
+                        </tr>
+                        <tr>
+                            <td id="d3">Intern</td>
+                            <td id="n6">Wendy Woo</td>
+                            <td headers="name email">woo.wendy@gmail.com</td>
+                            <td headers="years">1</td>
+                            <td headers="salary">$3,000</td>
+                        </tr>
+                        <tr>
+                            <td id="d4" rowspan="4">Development</td>
+                            <td id="n7">Marcus Tanaka</td>
+                            <td headers="name email">mtanaka1985@gmail.com</td>
+                            <td headers="years">15</td>
+                            <td headers="salary">$5,600</td>
+                        </tr>
+                        <tr>
+                            <td id="n8">Ariel Song</td>
+                            <td headers="name email">arielsong@yahoo.com</td>
+                            <td headers="years">6</td>
+                            <td headers="salary">$4,700</td>
+                        </tr>
+                        <tr>
+                            <td id="n9">Samira Knight</td>
+                            <td headers="name email">sknight@gmail.com</td>
+                            <td headers="years">9</td>
+                            <td headers="salary">$4,900</td>
+                        </tr>
+                        <tr>
+                            <td id="n10">Diego Rocket</td>
+                            <td headers="name email">diegor@gmail.com</td>
+                            <td headers="years">11</td>
+                            <td headers="salary">$5,100</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <th colspan="3">Total Years of Service</th>
+                            <td>90</td>
+                            <td>$48,100</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </figure>                        
+        </main>
+        <footer>
+            <div data-include="components/footer.html"></div>
+            <script src="scripts/include.js"></script>
+        </footer>
+    </body>
+</html>

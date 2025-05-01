@@ -2,6 +2,7 @@ html {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color:#007FFF;
     color: white;
+    font-size: 1rem;
 }
 /* Tablets */
 @media screen and (max-width: 992px) {
@@ -33,10 +34,6 @@ html {
 
     .nav {
         padding: 3%;
-    }
-
-    h1, h2, p {
-        font-size: 1rem;
     }
 }
 body {
@@ -97,8 +94,22 @@ p {
     padding: 5%;
     margin-top: 10%;
 }
-ul {
-    margin-right: auto;
-    margin-left: auto;
-    max-width: 10cm
+ul, ol, figure {
+    margin: 0 auto;
+    max-width: 10cm;
+}
+table, th, td {
+    width: 100%;
+    border:  1px solid black;
+    border-collapse: collapse;
+    margin: 2rem 0;
+}
+thead tr {
+    background-color: #222; /* darkest */
+    color: white;
+}
+
+figure {
+    margin: 0 auto;
+    max-width: 100%;
 }
