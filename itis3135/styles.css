@@ -32,7 +32,8 @@ a:visited {
 }
 footer {
     color: #007FFF;
-    opacity: 50%;
+    opacity: 80%;
+    margin-top: 10%;
 }
 .valbuttons {
     padding: 10px;
@@ -43,6 +44,19 @@ footer {
     margin-right: auto;
     margin-left: auto;
     max-width: 10cm
+}
+p {
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+}
+.website1, .website2 {
+    background-color: rgba(0, 0, 0, 0.373);
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+    padding: 5%;
+    margin-top: 10%;
 }
 ul {
     margin-right: auto;
