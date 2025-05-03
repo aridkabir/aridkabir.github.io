@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Form | Ari Kabir | Azure Koi | ITIS 3135</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://lint.page/kit/4d0fe3.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header>
+      <div data-include="components/header.html"></div>
+    </header>
+    <main>
+      <h2>Form</h2>
+      <form action="#" method="post">
+        <label for="name">Full Name:</label><br>
+        <input type="text" id="name" name="name" required placeholder="Your Name"><br><br>
+
+        <label for="phone">Phone Number:</label><br>
+        <input type="tel" id="phone" name="phone" required placeholder="123-456-7890"><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required placeholder="example@email.com"><br><br>
+
+        <fieldset>
+          <legend>Albums You're Interested In:</legend>
+          <label><input type="checkbox" name="albums" value="i-dle"> i-dle — for (G)</label><br>
+          <label><input type="checkbox" name="albums" value="adultswim"> KAI — Adult Swim</label><br>
+          <label><input type="checkbox" name="albums" value="seulgiaop"> Seulgi — Accidently on Purpose</label><br>
+        </fieldset><br>
+
+        <fieldset>
+          <legend>Preferred Payment Method:</legend>
+          <label><input type="radio" name="payment" value="credit" required> Credit Card</label>
+          <label><input type="radio" name="payment" value="paypal"> PayPal</label>
+          <label><input type="radio" name="payment" value="zelle"> Zelle</label>
+        </fieldset><br>
+
+        <label for="shipping">Select Shipping Option:</label><br>
+        <select id="shipping" name="shipping" required>
+          <option value="">Select one</option>
+          <option value="standard">Standard (5–7 days)</option>
+          <option value="express">Express (2–3 days)</option>
+          <option value="pickup">In-store Pickup</option>
+        </select><br><br>
+
+        <input type="reset" value="Reset">
+        <input type="submit" value="Place Order">
+      </form>
+    </main>
+    <footer>
+      <div data-include="components/footer.html"></div>
+      <script src="scripts/include.js"></script>
+    </footer>
+  </body>
+</html>
