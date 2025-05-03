@@ -98,11 +98,13 @@ ul, ol, figure {
     margin: 0 auto;
     max-width: 10cm;
 }
-table, th, td {
+table {
     width: 100%;
-    border:  1px solid black;
     border-collapse: collapse;
     margin: 2rem 0;
+}
+th, td {
+    border: 1px solid black;
 }
 thead tr {
     background-color: #222; /* darkest */

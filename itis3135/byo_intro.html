@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>BYO Intro | Ari Kabir | Azure Koi | ITIS 3135 |</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://lint.page/kit/4d0fe3.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <div data-include="components/header.html"></div>
+        </header>
+        <main>
+            <h2>BYO Intro </h2>
+            <h3>Time to BYO Intro page, please fill out the form below so we can create your own page.</h3>
+            <form id="introForm">
+                <label>Name: <input type="text" id="name" name="name" required></label><br>
+                <label>Mascot: <input type="text" id="mascot" name="mascot" required></label><br>
+                <label>Image Upload: <input type="file" id="image" name="image" accept=".jpg, .jpeg, .png" required></label><br>
+                <label>Image Caption: <input type="text" id="caption" name="caption" required></label><br>
+                <label>Personal Background: <textarea id="personal" name="personal" required></textarea></label><br>
+                <label>Professional Background: <textarea id="professional" name="professional" required></textarea></label><br>
+                <label>Academic Background: <textarea id="academic" name="academic" required></textarea></label><br>
+                <label>Web Development Background: <textarea id="webdev" name="webdev" required></textarea></label><br>
+                <label>Primary Computer Platform: <input type="text" id="platform" name="platform" required></label><br>
+                <div id="courses">
+                  <label>Courses Currently Taking:</label><br>
+                  <button type="button" onclick="addCourse()">Add Course</button>
+                </div>
+                <label>Funny Thing?: <input type="text" id="funny" name="funny"></label><br>
+                <label>Anything Else?: <input type="text" id="extra" name="extra"></label><br>
+                <label><input type="checkbox" id="agree" required> I understand that what is on this page is not password protected...</label><br>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+              </form>
+              
+        </main>
+        <footer>
+            <div data-include="components/footer.html"></div>
+            <script src="scripts/include.js"></script>
+            <script src="scripts/survey.js"></script>     
+        </footer>
+    </body>
+</html>
