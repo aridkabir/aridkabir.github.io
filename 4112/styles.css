@@ -1,0 +1,18 @@
+header {
+    font-variant:small-caps;
+}
+body {
+    text-align: center;
+    color: white;
+    background-color: #13157a;
+}
+.bio {
+    margin-top: auto;
+}
+.copyright {
+    font-size: small;
+    color: gainsboro;
+}
+a {
+    color: rgb(103, 255, 103)
+}
