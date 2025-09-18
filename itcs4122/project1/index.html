@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Used Car Price Analysis Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>What Factors Influence Second-Hand Car Prices the Most?</h1>
+  </header>
+
+  <main>
+    <section id="introduction">
+      <h2>Introduction</h2>
+      <p>
+        In this day and age, buying a used car is becoming increasingly expensive,
+        especially compared to new cars. But why is this happening? What is driving
+        the price of second-hand cars so much, especially compared to a decade ago?
+        To explore this question, I analyzed a dataset of second-hand car listings
+        from Kaggle to identify the most influential factors on used car prices.
+      </p>
+    </section>
+
+    <section id="visualization-1">
+      <h2>How Does the Year of Manufacture Impact Price?</h2>
+      <p>
+        This chart shows a clear relationship between the car's age and its price.
+        As expected, newer cars command significantly higher prices, with the median
+        price rising steadily from around £4,500 for cars made in 2000 to almost
+        £49,000 for models in 2025. This trend reflects buyer preferences for newer
+        vehicles due to improved safety features, modern conveniences, and a lower
+        risk of mechanical failure. Sellers can price newer cars higher because
+        demand is stronger, while older vehicles naturally depreciate in value.
+      </p>
+      <div class="chart-container" id="year-price-chart">
+        <iframe src="fig_year.html" frameborder="0" class="chart-iframe"></iframe>
+      </div>
+    </section>
+
+    <section id="visualization-2">
+      <h2>How Do Different Brands Affect Price?</h2>
+      <p>
+        The brand of a car plays a major role in its resale value. Luxury brands like
+        Porsche and BMW generally maintain higher prices, showing a wide range of
+        listings that reflect different models and conditions. Mainstream brands
+        such as Ford and Toyota typically have lower median prices but offer more
+        affordable options for budget-conscious buyers. Understanding brand-specific
+        pricing helps buyers align their choices with their budget and expectations,
+        while sellers can set competitive prices based on brand reputation and demand.
+      </p>
+      <div class="chart-container" id="brand-price-chart">
+        <iframe src="fig_brand.html" frameborder="0" class="chart-iframe"></iframe>
+      </div>
+    </section>
+
+    <section id="visualization-3">
+      <h2>What Role Does Mileage Play in Pricing?</h2>
+      <p>
+        Mileage is a crucial factor in determining a used car’s price. This chart
+        illustrates that cars with fewer miles tend to have higher median prices,
+        with a noticeable drop-off after 100,000 miles. This makes sense, as higher
+        mileage typically indicates more wear and tear, and increases the likelihood
+        of costly repairs. Buyers who prioritize longevity and reliability may prefer
+        lower mileage cars even if they cost more upfront.
+      </p>
+      <div class="chart-container" id="mileage-price-chart">
+        <iframe src="fig_mileage.html" frameborder="0" class="chart-iframe"></iframe>
+      </div>
+    </section>
+
+    <section id="visualization-4">
+      <h2>Which Brands Dominate the Market?</h2>
+      <p>
+        Finally, looking at the number of listings per brand provides insight into
+        market availability. Ford and Toyota dominate the UK second-hand market with
+        the highest quantities of cars listed, offering buyers a wide selection.
+        These brands' popularity may be due to factors like affordability, reliability,
+        and brand loyalty. Meanwhile, luxury brands have fewer listings, which can
+        affect their prices due to supply scarcity.
+      </p>
+      <div class="chart-container" id="brand-marketshare-chart">
+        <iframe src="fig_quantity.html" frameborder="0" class="chart-iframe"></iframe>
+      </div>
+    </section>
+
+    <section id="conclusion">
+      <h2>Conclusion: Why These Insights Matter</h2>
+      <p>
+        For buyers, this analysis highlights how key factors like age, mileage, and brand
+        influence price, enabling more informed decisions based on personal needs and
+        budget. Some buyers may prioritize affordability and choose high-mileage Toyotas,
+        while others might seek luxury and newer models despite the higher cost.
+      </p>
+      <p>
+        Sellers, on the other hand, can use these trends to better price their vehicles
+        and anticipate market demand. Knowing how much value is retained over time, or
+        how mileage impacts price, can help maximize resale value.
+      </p>
+      <p>
+        Understanding these dynamics contributes to a healthier, more transparent used
+        car market—benefiting both buyers and sellers.
+      </p>
+    </section>
+
+    <section id="references">
+      <h2>References</h2>
+      <ul>
+        <li>Dataset: Kaggle, 2023. <a target="_blank" rel="noopener noreferrer" href="https://www.kaggle.com/datasets/msnbehdani/mock-dataset-of-second-hand-car-sales/data">Link to dataset</a></li>
+        <li>Libraries used: pandas, plotly</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 arid kabir</p>
+  </footer>
+</body>
+</html>
